@@ -56,6 +56,12 @@ If you need to customize styles for [Redmine Backlogs][redmine_backlogs] remembe
 
 ## Changelog
 
+Latest (master):
+
+* Fixed #8: Setting `$top-menu-collapse` to `true` will enable script allowing to toggle if top menu should be collapsed (no wrapping) or expanded (wrapped, with auto height)
++ Header matching current URL fragment will have `#` prepended
++ Introduced `$font-weight-normal` and `$font-weight-bold` variables to give better control on the appearance of text with custom fonts
+
 v1.5.0 (2015-04-15):
 
 * Fixed #5: Added default style for colored issue links.
