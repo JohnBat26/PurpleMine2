@@ -10,6 +10,10 @@ PurpleMine.MenuCollapse = (function()
             topMenuToggler : "Expand/collapse top menu",
             mainMenuToggler: "Expand/collapse main menu"
         },
+	ru: {
+            topMenuToggler : "Раскрыть/скрыть верхнее меню",
+            mainMenuToggler: "Раскрыть/скрыть главное меню"
+        },	
         pl: {
             topMenuToggler : "Zwiń/rozwiń górne menu",
             mainMenuToggler: "Zwiń/rozwiń główne menu"
