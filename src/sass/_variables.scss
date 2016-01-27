@@ -41,6 +41,7 @@ $brand-success:                 #019851 !default;
 $brand-info:                    #409ae3 !default;
 $brand-warning:                 #ed820c !default;
 $brand-danger:                  #e74c3c !default;
+$brand-notice:                  #009900 !default;
 
 $state-success:                 #b5fbb7 !default;
 $state-info:                    #97cefb !default;
@@ -229,7 +230,7 @@ $tracker-default-colors-map: (
         color:                  $brand-text
     ),
     14: (
-        background:             $state-info,
+        background:             $brand-notice,
         color:                  $brand-text
     ),
     15: (
