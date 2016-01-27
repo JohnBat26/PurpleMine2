@@ -219,7 +219,23 @@ $tracker-default-colors-map: (
     7: (
         background:             mix($brand-primary, $brand-warning, 50%),
         color:                  $brand-text
-    )
+    ),
+    12: (
+        background:             $brand-info,
+        color:                  $brand-text
+    ),
+    13: (
+        background:             $brand-danger,
+        color:                  $brand-text
+    ),
+    14: (
+        background:             $state-info,
+        color:                  $brand-text
+    ),
+    15: (
+        background:             mix($brand-success, $brand-info, 50%),
+        color:                  $brand-text
+    ),
 ) !default;
 $tracker-custom-colors-map:     () !default;
 $tracker-colors-map:            map-merge($tracker-default-colors-map, $tracker-custom-colors-map);
